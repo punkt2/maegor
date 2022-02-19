@@ -1,0 +1,82 @@
+{
+  "_args": [
+    [
+      "maegor@0.3.0",
+      "/Users/user/Development/foodcalculator/foodcalculator-web"
+    ]
+  ],
+  "_from": "maegor@0.3.0",
+  "_id": "maegor@0.3.0",
+  "_inBundle": false,
+  "_integrity": "sha1-vkfIs+deDt3vdkdKnHdhbmw5dzc=",
+  "_location": "/maegor",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "maegor@0.3.0",
+    "name": "maegor",
+    "escapedName": "maegor",
+    "rawSpec": "0.3.0",
+    "saveSpec": null,
+    "fetchSpec": "0.3.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/maegor/-/maegor-0.3.0.tgz",
+  "_spec": "0.3.0",
+  "_where": "/Users/user/Development/foodcalculator/foodcalculator-web",
+  "author": {
+    "name": "Lukas Kollmer",
+    "email": "lukas.kollmer@gmail.com",
+    "url": "lukas.vip"
+  },
+  "ava": {
+    "files": [
+      "tests/*.js"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/lukaskollmer/maegor/issues"
+  },
+  "dependencies": {
+    "big.js": "^3.1.3"
+  },
+  "description": "Unit conversion library",
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "coveralls": "^2.11.12",
+    "nyc": "^10.0.0",
+    "xo": "^0.17.0"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "homepage": "https://github.com/lukaskollmer/maegor#readme",
+  "keywords": [
+    "unit-conversion",
+    "measurement"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "maegor",
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukaskollmer/maegor.git"
+  },
+  "scripts": {
+    "test": "xo && nyc ava --verbose"
+  },
+  "version": "0.3.0",
+  "xo": {
+    "space": true,
+    "ignore": "example.js"
+  }
+}
